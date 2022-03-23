@@ -1,6 +1,6 @@
 ## Running the code
 
-### Cloning this project to your device
+### Floking this project to your device
 
 ```
 git clone 
