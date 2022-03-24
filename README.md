@@ -1,3 +1,11 @@
+# Parasite egg detection 
+
+In the real-world situation, deploying parasite egg detection in the parasite learning chatbot could receive an input that has different distribution from training data. Out-of-domain images in parasite egg detection can lead to incorrect predictions. In testing, we removed out-of-domain images from test data, and the result shows that predictive performance was improved. Solving out-of-domain image problems, we apply out-of-domain images detection to parasite egg detection by using temperature scaling and adding small perturbations to the input. The difference of the SoftMax score distributions can separate in-domain images from out-of-domain images. We abstain out-of-domain images from prediction for more effective detection.
+
+<p align="center">
+<img src="./figures/original_optimal_shade.png" width="500">
+</p>
+
 ## Running the code
 
 ### Forking this project to your Github and cloning the project to your device
