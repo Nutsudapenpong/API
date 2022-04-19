@@ -10,6 +10,20 @@ In the real-world situation, deploying parasite egg detection in the parasite le
 ```
 git clone [HTTPS link]
 ```
+## Install dependencies
+```
+!pip install -r requirements.txt
+```
+## Setup
+```
+%pip install wandb
+
+import torch
+from IPython.display import Image, clear_output  # to display images
+
+clear_output()
+print(f"Setup complete. Using torch {torch.__version__} ({torch.cuda.get_device_properties(0).name if torch.cuda.is_available() else 'CPU'})")
+```
 ### Running API
 Here is an example code of running API, run
 ```
