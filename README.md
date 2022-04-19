@@ -12,11 +12,11 @@ git clone [HTTPS link]
 ```
 ## Install dependencies
 ```
-!pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ## Setup
 ```
-%pip install wandb
+pip install wandb
 
 import torch
 from IPython.display import Image, clear_output  # to display images
